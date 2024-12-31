@@ -1,0 +1,608 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+<meta name="theme-color" content="#478079"/>
+
+<title>Jhih-Hua Jhong | Senior Bioinformatics Scientist &amp; Director of Bioinformatics</title>
+<meta name="description" content='This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications.'>
+<meta name="generator-mode" content='production'>
+<style data-generator="critical-css">
+</style>
+  <link rel="stylesheet" href="https://jhjhong.github.io/scss/adritian.min.c43980c726e1de153bec9c6b98a1e28b34cd282522a8f596ab3bb88d4b55c066.css" integrity="sha256-xDmAxybh3hU77JxrmKHiizTNKCUiqPWWqzu4jUtVwGY=" crossorigin="anonymous"/>
+
+<link
+  rel="preload"
+  href="/css/bundle.min.42669f840dcca71a479fd79a353d9464f0cf47bbce61002d3cff8326effef7ce.css"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+  integrity="sha256-QmafhA3MpxpHn9eaNT2UZPDPR7vOYQAtPP+DJu/+984="
+    crossorigin="anonymous"
+/>
+<noscript>
+  <link 
+    rel="stylesheet"
+    href="/css/bundle.min.42669f840dcca71a479fd79a353d9464f0cf47bbce61002d3cff8326effef7ce.css"
+    integrity="sha256-QmafhA3MpxpHn9eaNT2UZPDPR7vOYQAtPP+DJu/+984="
+    crossorigin="anonymous"
+  />
+</noscript>
+
+<script src='https://jhjhong.github.io/js/library/lozad.min.js'></script>
+
+<meta property="og:url" content="https://jhjhong.github.io/">
+  <meta property="og:site_name" content="Chase Jhong">
+  <meta property="og:title" content="Chase Jhong">
+  <meta property="og:description" content="This is my personal website. It is built with HUGO using the theme Adritian and hosted on GitHub Pages.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+    <meta property="og:image" content="https://jhjhong.github.io/showcase.png">
+
+
+    <style>
+    .language-switch {
+      margin-left: 15px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .language-checkbox {
+      display: none;
+    }
+    
+    .language-label {
+      cursor: pointer;
+      width: 56px;
+      height: 28px;
+      background: #478079;
+      border-radius: 14px;
+      position: relative;
+      transition: background-color 0.3s ease;
+      margin: 0;
+    }
+    
+     
+    .language-label:after {
+      content: "";
+      width: 24px;
+      height: 24px;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      transition: 0.3s;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+     
+    .lang-en, .lang-zh {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 12px;
+      font-weight: 500;
+      color: #000000;
+      transition: color 0.3s;
+    }
+    
+    .lang-en {
+      left: 7px;
+    }
+    
+    .lang-zh {
+      right: 7px;
+    }
+    
+     
+    .language-checkbox:checked + .language-label:after {
+      left: calc(100% - 26px);
+    }
+    
+     
+    .language-checkbox:not(:checked) + .language-label .lang-zh {
+      color: rgba(0, 0, 0, 0.6);   
+    }
+    
+    .language-checkbox:checked + .language-label .lang-en {
+      color: rgba(0, 0, 0, 0.6);   
+    }
+    
+     
+    .language-label:hover:after {
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+    </style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const languageToggle = document.getElementById('language-toggle');
+      
+      languageToggle.addEventListener('change', function() {
+        const currentPath = window.location.pathname;
+        if (this.checked) {
+          
+          window.location.href = '/zh' + currentPath;
+        } else {
+          
+          window.location.href = currentPath.replace('/zh', '');
+        }
+      });
+    
+      
+      if (window.location.pathname.startsWith('/zh')) {
+        languageToggle.checked = true;
+      }
+    });
+</script>
+
+</head>
+
+<body class="home">
+
+	
+
+<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-auto" href="https://jhjhong.github.io/">
+          <span>Chase</span>
+          <span>Jhong</span>
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent, #header"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="https://jhjhong.github.io/">HOME</a>
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/#about">ABOUT</a>
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/#experience">EXPERIENCE</a>
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/blog">BLOG</a>
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/#contact">CONTACT</a>
+            </li>
+            
+            <li class="nav-item">
+              <div class="language-switch">
+                <input type="checkbox" id="language-toggle" class="language-checkbox">
+                <label for="language-toggle" class="language-label">
+                  <span class="lang-en">EN</span>
+                  <span class="lang-zh">中</span>
+                </label>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+
+	
+	
+<section id="showcase" class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
+  <div class="container">
+    <div class="row flex-column-reverse flex-md-row rad-fade-down rad-waiting rad-animate">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <h1 class="display-1">
+          Hello, I’m Chase.
+          <br />
+          <span>Senior Scientist &amp; Director of Bioinformatics</span>
+        </h1>
+        <p class="lead">
+          <p class="lead"> I am currently employed at <a target='_blank' href='https://fcbiotech.com.tw/'>Feng Chi Biotech</a>, a biotechnology company focused on genetic testing and the development of testing products. </p> <p class="lead"> I am passionate about solving challenging systems problems, where I can apply my expertise in architecture, design, and software automation to advance the development of bioinformatics analysis tools for clinical sequencing services and IVD products. My goal is to create innovative and impactful solutions in the technology space. </p>
+        </p>
+        <a
+          href="#contact"
+          class="btn btn-primary"
+        >
+          <i class="icon-email"></i>
+          Contact
+        </a>
+      </div>
+<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 profile-image">
+
+  
+  
+
+  
+  
+              
+   
+
+  
+  
+
+
+  <picture>
+    <source srcset="/images/showcase/showcase_hu7387713246908558485.webp 1x, /images/showcase/showcase@2x_hu4121944409458675441.webp 2x" type="image/webp" />
+    <source srcset="/images/showcase/showcase.png 1x, /images/showcase/showcase@2x.png 2x" type="image/webp">
+    <img
+      width="790"
+      height="768"
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      srcset="/images/showcase/showcase.png 1x, /images/showcase/showcase@2x.png 2x"
+      data-src="/images/showcase/showcase.png"
+      data-srcset="/images/showcase/showcase.png 1x, /images/showcase/showcase@2x.png 2x"
+      alt='A picture of Cool Name'
+    />
+  </picture>
+  
+  
+
+</div>
+    </div>
+    <div class="row platform-links">
+      <div class="col-12">
+        
+        <a href="https://www.linkedin.com/in/jhih-hua-jhong-093b6916b/" target="_blank" rel="noopener noreferrer" aria-label="linkedin"
+          ><i class="icon-linkedin"></i
+        ></a>
+        
+        <a href="https://github.com/jhjhong" target="_blank" rel="noopener noreferrer" aria-label="square-github"
+          ><i class="icon-square-github"></i
+        ></a>
+        
+        <a href="https://www.instagram.com/aboutafa/" target="_blank" rel="noopener noreferrer" aria-label="instagram"
+          ><i class="icon-instagram"></i
+        ></a>
+        
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+
+	
+	
+<section id="about" class="section rad-animation-group pb-0" >
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="about__profile-picture col-12 col-md-6">
+        
+              
+        
+        
+        
+              
+         
+
+        
+        
+        <picture>
+          <source srcset="/images/about/user-picture_hu16615096119556517587.webp 1x, /images/about/user-picture_hu8839404730129813285.webp 2x" type="image/webp" />
+          <source srcset="/images/about/user-picture.png 1x, /images/about/user-picture@2x.png 2x" type="image/webp">
+          <img
+            width="561"
+            height="535"
+            class="lozad img-responsive image-left-overflow"
+            src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+            srcset="/images/about/user-picture.png 1x, /images/about/user-picture@2x.png 2x"
+            data-src="/images/about/user-picture.png"
+            data-srcset="/images/about/user-picture.png 1x, /images/about/user-picture@2x.png 2x"
+            alt=''
+          />
+        </picture>
+        
+        
+      </div>
+      <div class="col-12 col-md-6 my-auto my-auto">
+        <h2>Who am I?</h2>
+        <p class="lead"> Was DevOps engineer in the bioinformatics department, focusing on algorithm and bioinformatics pipeline development for diagnostic oncology panels, as well as the establishment of quality control standards for oncology production. </p> <p class="lead"> Currently, I lead a bioinformatics team responsible for software development, maintenance, and software quality assurance. My work combines method and tool development with applications. In addition, we serve strong support to internal departments of the company, including laboratory R&D, production line, medical scientists, technology transfer, and business development to achieve the highest efficacy in product success. </p> <p class="lead"> Before joining ACT Genomics, I had 4 years of experience in machine learning, 10+ years of experience in databases, meta'omics, computational biology, and bioinformatics. As being a manager, I have 1 year of experience in bridging the gaps between the bioinformatics department and internal departments in the company. </p>
+        <a
+          href="https://www.linkedin.com/in/jhih-hua-jhong-093b6916b/"
+          target="_blank"
+          class="btn btn-primary"
+        >
+          <i class="icon-user"></i>
+          About Me
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	
+	
+<section id="education" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>Education</h2>
+                <div class="row pt-2 pt-md-4">
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2015–2021</div>
+                            <div class="education__title">Yuan Ze University, Taiwan</div>
+                            <div class="education__degree">
+                                Ph.D. in Computer Science and Engineering
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2009–2012</div>
+                            <div class="education__title">Chung Yuan Christian University, Taiwan.</div>
+                            <div class="education__degree">
+                                B.S. in Applied Mathematics
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section id="experience" class="section-experience section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div class="col-12 cold-md-12 col-sm-6 mt-5 mt-sm-0">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <div class="experience">
+                    <a href="https://jhjhong.github.io/experience/fcb/">
+                        
+                        <div class="experience__date">March 2023 - Present</div>
+                        <div class="experience__title">Director of Bioinformatics</div>
+                        <div class="experience__company">Feng Chi Biotech 豐技生技. <span class="experience__location">
+                            Taipei, Taiwan</span></div>
+                    </a>
+                </div>
+                
+                <div class="experience">
+                    <a href="https://jhjhong.github.io/experience/actg/">
+                        
+                        <div class="experience__date">May 2021 - December 2023</div>
+                        <div class="experience__title">DevOps Engineer</div>
+                        <div class="experience__company">ACT Genomics 行動基因. <span class="experience__location">
+                            Taipei, Taiwan</span></div>
+                    </a>
+                </div>
+                
+                <div class="experience">
+                    <a href="https://jhjhong.github.io/experience/cuhksz/">
+                        
+                        <div class="experience__date">December 2018 - Fabruary 2021</div>
+                        <div class="experience__title">Research Assistant</div>
+                        <div class="experience__company">CUHK(SZ) 香港中文大學(深圳). <span class="experience__location">
+                            Shenzen, China</span></div>
+                    </a>
+                </div>
+                
+                
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="container-experience">
+  <div class="row">
+    <h2>Experience</h2>
+    <p class="lead">Over 10&#43; years of experience working on various project scales and within diverse teams to become a bioinformatics scientist. My passions lie in microbiology, antimicrobial resistance and disease control, leading to clinical research and drug development. I look forward to working with a global organization which offers challenging opportunities that would allow me to contribute to the organization and to humankind. I hope to apply my research knowledge to clinical treatment, including the development of possible new antibiotic drugs to fight bacterial and fungal infections.</p>
+  </div>
+  <div class="row">
+    <div class="col-12 col-lg-4">
+      <a
+        href="https://jhjhong.github.io/"
+        class="btn btn-primary btn-block w-100"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="icon-linkedin"></i>
+        LinkedIn
+        <i class="icon-arrow-right"></i
+      ></a>
+    </div>
+    <div class="col-12 col-lg-4">
+      <a
+        href='https://jhjhong.github.io/img/general/user-smile-fill.svg'
+        class="btn btn-frameless  w-100"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="icon-file-pdf"></i>
+        Download resume
+      </a>
+    </div>
+    
+    <div class="col-12 col-lg-4">
+      <a
+        href='https://jhjhong.github.io/experience'
+        class="btn btn-frameless  w-100"
+        rel="noopener noreferrer"
+      >
+        <i class="icon-circle-arrow-right"></i>
+        View all
+      </a>
+    </div>
+    
+  </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+	
+	
+<section id="contact" class="section section--contact pt-0">
+    <div class="container">
+        <div class="contact">
+            <h2>Contact</h2>
+            <div class="row pt-2">
+                <div class="col-12 col-lg-7">
+                    <form action="https://formspree.io/f/xeoolzbl" method="POST">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <input type="text" name="full_name" id="full_name"
+                                       placeholder='Full Name'/>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" name="email" id="email"
+                                       placeholder='Email Address'/>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <textarea name="message" id="message"
+                                          cols="30" rows="3" placeholder='Type Your Message Here'></textarea>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="icon-email"></i>
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-5 contact__info">
+                    <h3>Phone Number</h3>
+                    <span>(&#43;886) 988 226 966</span>
+                    <h3>Email</h3>
+                    <span><a href="mailto:jhihua.tw@gmail.com">jhihua.tw@gmail.com</a></span>
+                    <h3>Address</h3>
+                    <span>Taipei, Taiwan</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+
+	<footer class="footer">
+  <div class="container">
+    <div class="footer__left">
+      <div class="footer__copy">
+        
+      </div>
+    </div>
+    <div class="footer__links">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+            <a class="nav-link" href="https://jhjhong.github.io/">🏠 HOME</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">ABOUT</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#experience">EXPERIENCE</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">CONTACT</a>
+        </li>
+        
+      </ul>
+    </div>
+    <div class="footer__right">
+      
+      <nav class="language-selector">
+        <ul>
+          
+            
+            <li class="dropdown">
+              <button type="button" class="dropdown__title" aria-expanded="false" aria-controls="languages-dropdown">
+                <span class="label">Language</span>    
+              </button>
+            <ul class="dropdown__menu" id="languages-dropdown">
+              <li class="current"><span>✔️ English</span></li>
+              
+              
+            
+              
+              
+              <li><a class="translation" title="中文" href="https://jhjhong.github.io/zh/">中文</a></li>
+              
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      
+    </div>
+  </div>
+</footer>
+
+    <script>
+  window.addEventListener("load", function() {
+    try{
+      var observer = window.lozad(".lozad", {
+        rootMargin: window.innerHeight / 2 + "px 0px",
+        threshold: 0.01
+      }); 
+      observer.observe();
+    } catch(e) {
+      console.error(e);
+    }
+  });
+</script>
+<script defer src='https://jhjhong.github.io/js/rad-animations.js'></script>
+<script defer src='https://jhjhong.github.io/js/library/smooth-scroll.polyfills.min.js'></script>
+<script defer src='https://jhjhong.github.io/js/sticky-header.js'></script>
+<script defer src='https://jhjhong.github.io/js/smooth-scroll-init.js'></script>
+<script defer src='https://jhjhong.github.io/js/library/bootstrap.min.js'></script>
+
+
+
+
+
+<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+
+
+
+</body>
+
+</html>
