@@ -2,106 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jhjhong.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-12-31T17:06:13+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://jhjhong.github.io/zh/"
+                href="http://localhost:1313/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jhjhong.github.io/"
+                href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>https://jhjhong.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-12-31T17:06:13+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://jhjhong.github.io/zh/about/"
+                href="http://localhost:1313/zh/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jhjhong.github.io/about/"
+                href="http://localhost:1313/about/"
                 />
   </url><url>
-    <loc>https://jhjhong.github.io/experience/fcb/</loc>
-    <lastmod>2024-12-30T00:00:00+01:00</lastmod>
+    <loc>http://localhost:1313/experience/fcb/</loc>
+    <lastmod>2024-12-30T00:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://jhjhong.github.io/zh/experience/fcb/"
+                href="http://localhost:1313/zh/experience/fcb/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jhjhong.github.io/experience/fcb/"
+                href="http://localhost:1313/experience/fcb/"
                 />
   </url><url>
-    <loc>https://jhjhong.github.io/experience/</loc>
-    <lastmod>2024-12-30T00:00:00+01:00</lastmod>
+    <loc>http://localhost:1313/experience/</loc>
+    <lastmod>2024-12-30T00:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://jhjhong.github.io/zh/experience/"
+                href="http://localhost:1313/zh/experience/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jhjhong.github.io/experience/"
+                href="http://localhost:1313/experience/"
                 />
   </url><url>
-    <loc>https://jhjhong.github.io/experience/actg/</loc>
-    <lastmod>2024-12-29T00:00:00+01:00</lastmod>
+    <loc>http://localhost:1313/experience/actg/</loc>
+    <lastmod>2024-12-29T00:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://jhjhong.github.io/zh/experience/actg/"
+                href="http://localhost:1313/zh/experience/actg/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jhjhong.github.io/experience/actg/"
+                href="http://localhost:1313/experience/actg/"
                 />
   </url><url>
-    <loc>https://jhjhong.github.io/experience/cuhksz/</loc>
-    <lastmod>2024-12-20T00:00:00+01:00</lastmod>
+    <loc>http://localhost:1313/experience/cuhksz/</loc>
+    <lastmod>2024-12-20T00:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://jhjhong.github.io/zh/experience/cuhksz/"
+                href="http://localhost:1313/zh/experience/cuhksz/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jhjhong.github.io/experience/cuhksz/"
+                href="http://localhost:1313/experience/cuhksz/"
                 />
   </url><url>
-    <loc>https://jhjhong.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://jhjhong.github.io/zh/categories/"
+                href="http://localhost:1313/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jhjhong.github.io/categories/"
+                href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>https://jhjhong.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://jhjhong.github.io/zh/tags/"
+                href="http://localhost:1313/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jhjhong.github.io/tags/"
+                href="http://localhost:1313/tags/"
                 />
   </url>
 </urlset>

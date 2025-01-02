@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on </title>
-    <link>https://jhjhong.github.io/zh/about/</link>
+    <link>http://localhost:1313/zh/about/</link>
     <description>Recent content in Abouts on </description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://jhjhong.github.io/zh/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
