@@ -9485,20 +9485,22 @@ br {
 /** Media-query based color switching **/
 @media (prefers-color-scheme: dark) {
   html body, body {
-    color: #fff !important;
-    background-color: #181818 !important; }
+    color: #D3C6AA !important;
+    background-color: #2D353B !important; }
+  .header .navbar-brand span:nth-child(1) {
+    color: #7FBBB3 !important; }
   .header .navbar-brand span:nth-child(2) {
-    color: #fff !important; }
+    color: #D3C6AA !important; }
   .header .navbar .nav-item .nav-link::after {
-    background-color: #fff !important; }
+    background-color: #D3C6AA !important; }
   .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; }
   .header.collapse.show::before, .header.collapsing::before {
-    background-color: #181818 !important; } }
+    background-color: #2D353B !important; } }
 
 @media (prefers-color-scheme: dark) and (min-width: 992px) {
   .header .navbar .nav-item:hover .nav-link::after {
-    background-color: #fff !important; } }
+    background-color: #D3C6AA !important; } }
 
 @media only screen and (prefers-color-scheme: dark) and (max-width: 990px) {
   .header .navbar .nav-item:first-child {
@@ -9508,50 +9510,52 @@ br {
 
 @media (prefers-color-scheme: dark) {
   .header--sticky-triggered {
-    background: #181818  !important; }
+    background: #2D353B !important; }
   .header .navbar-light .navbar-nav .nav-link {
-    color: #fff !important; }
+    color: #D3C6AA !important; }
   .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    color: #fff !important; }
+    color: #D3C6AA !important; }
   .section li {
     color: #f8f9fa !important; }
   .section li::before {
     background-color: #f8f9fa !important; }
   .display-1 {
-    color: #fff !important; }
+    color: #D3C6AA !important; }
   .lead {
-    color: #fff !important; }
+    color: #D3C6AA !important; }
   p a, span a {
-    color: #fff !important; }
+    color: #7FBBB3 !important; }
   p {
     color: #f8f9fa !important; }
   .rad-showcase .platform-links [class^="icon-"] {
-    color: #fff !important; }
+    color: #D3C6AA !important; }
   .experience a {
-    color: #fff !important; }
+    color: #D3C6AA !important; }
   .experience__company {
     color: #6EAFAA !important; }
-  .education__degree, .experience__date {
+  .experience__date {
+    color: #a6a6a6 !important; }
+  .education__degree {
     color: #a6a6a6 !important; }
   .education__title {
-    color: #fff !important; }
+    color: #D3C6AA !important; }
   .education__date {
-    color: #d5d5d5 !important; }
+    color: #a6a6a6 !important; }
   .education::before {
-    background-color: #202020 !important; }
+    background-color: #4E6B6B !important; }
   .testimonial__author-info span {
     color: #F18983 !important; }
   .section--contact .container {
-    background-color: #181818 !important; }
+    background-color: #2D353B !important; }
   .contact__info span {
-    color: #fff !important; }
+    color: #D3C6AA !important; }
   .contact__info h3, .contact__info .h3 {
-    color: #bebdbd !important; }
+    color: #a6a6a6 !important; }
   .section--contact {
     background-image: url(../img/contact-bg-dark.png) !important; }
   .btn-primary {
-    background-color: #fff !important;
-    color: #000 !important; }
+    background-color: #7FBBB3 !important;
+    color: #2D353B !important; }
   .btn-primary:hover {
     border-color: #fff !important;
     color: #fff !important;

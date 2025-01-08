@@ -76,9 +76,9 @@
 }
 .btn-primary {
     position: relative;
-    color: #fff;
+    color: #d61818;
     background-color: #000;
-    border-color: #000;
+    border-color: #7FBBB3;
     will-change: border-color, color, background-color;
     -webkit-transition: border-color, color, background-color;
     transition: border-color, color, background-color;

@@ -15,6 +15,19 @@
                 href="https://jhjhong.github.io/"
                 />
   </url><url>
+    <loc>https://jhjhong.github.io/about/about/</loc>
+    <lastmod>2024-12-31T17:06:13+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jhjhong.github.io/zh/about/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jhjhong.github.io/about/about/"
+                />
+  </url><url>
     <loc>https://jhjhong.github.io/about/</loc>
     <lastmod>2024-12-31T17:06:13+08:00</lastmod>
     <xhtml:link
@@ -27,6 +40,9 @@
                 hreflang="en"
                 href="https://jhjhong.github.io/about/"
                 />
+  </url><url>
+    <loc>https://jhjhong.github.io/about/publication/</loc>
+    <lastmod>2024-12-31T17:06:13+08:00</lastmod>
   </url><url>
     <loc>https://jhjhong.github.io/experience/fcb/</loc>
     <lastmod>2024-12-30T00:00:00+08:00</lastmod>
@@ -79,6 +95,9 @@
                 hreflang="en"
                 href="https://jhjhong.github.io/experience/cuhksz/"
                 />
+  </url><url>
+    <loc>https://jhjhong.github.io/blog/</loc>
+    <lastmod>2023-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jhjhong.github.io/categories/</loc>
     <xhtml:link
