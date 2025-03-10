@@ -43,6 +43,16 @@
   </url><url>
     <loc>https://jhjhong.github.io/about/publication/</loc>
     <lastmod>2024-12-31T17:06:13+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jhjhong.github.io/zh/about/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jhjhong.github.io/about/publication/"
+                />
   </url><url>
     <loc>https://jhjhong.github.io/experience/fcb/</loc>
     <lastmod>2024-12-30T00:00:00+08:00</lastmod>
